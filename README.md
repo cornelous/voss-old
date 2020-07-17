@@ -8,14 +8,17 @@ A currency converter as a fulfilment for a tech assessment.
 2. Open a terminal and run:-
 
     (a) pin install    
-    (b) php artisan migrate
-    (c) export FLASK_ENV=development
-    (d) flask run
+    (b) export FLASK_ENV=development
+    
+    (c) flask run
+
 
 3. Visit app at http://127.0.0.1:5000/
 ## NB
 This is my very first python and flask, I enjoyed the experience of
 putting it together. I still have lots to learn!
+
+I may have commmited some files that maybe needed to be in .gitignore
 
 My unit tests are incomplete, I was going to test for these 3 scenarios
 - test that non-supported currencies can not be submitted
